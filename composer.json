@@ -1,0 +1,34 @@
+{
+    "name": "laravel-admin/summernote",
+    "description": "summernote extension for laravel-admin",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension", "editor"],
+    "homepage": "https://github.com/icmall/summernote",
+    "license": "ICMALL",
+    "authors": [
+        {
+            "name": "icmall",
+            "email": "imcall@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encore\\Summernote\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encore\\Summernote\\SummernoteServiceProvider"
+            ]
+
+        }
+    }
+}
