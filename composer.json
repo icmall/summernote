@@ -1,5 +1,5 @@
 {
-    "name": "laravel-admin/summernote",
+    "name": "icmall/summernote",
     "description": "summernote extension for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension", "editor"],
